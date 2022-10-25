@@ -1,0 +1,27 @@
+laravel new (name)
+after ( composer install --ignore-platform-reqs )
+gauti serveri ( php artisan serve )
+php artisan make:(type) (name) 
+
+susikurti data base 
+1 sukurti db.sqlite faila folder(database)
+2 .env db conection sqlite 
+       db database path to db.sqlite
+	ištrinti visus kitus db
+
+prideti i database table:
+	php artisan make:migration (name)
+	
+prideti table visus i batabase:
+	php artisan migrate
+	
+	
+prideti faila kad dirbti su table:
+	php artisan make:model (name)
+	
+	
+prideti controller:
+	php artisan make:controller (name)
+	
+	
+

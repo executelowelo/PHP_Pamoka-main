@@ -1,0 +1,88 @@
+/*
+backround spalva
+*/
+.bg-color{
+    background-color: rgb(21, 22, 41);
+
+}
+
+/*
+random color
+*/
+.random-spalva{
+    background-color: rgb(21, 22, 41);
+
+}
+
+/*
+ 3rem nuo viršau
+*/
+.spacing-top {
+    margin-top: 3rem;
+  }
+  
+  /*
+ 3rem nuo viršau
+*/
+.spacing-4rem {
+    margin-top: 4rem;
+  }
+
+  /*
+ 3rem nuo viršau
+*/
+.spacing-2rem {
+    margin-top: 2rem;
+  }
+
+  /*
+ 3rem nuo viršau
+*/
+.spacing-1rem {
+    margin-top: 1rem;
+  }
+
+/*
+Teksto spalva
+*/
+.all-text {
+    font-family: Aharoni;
+    src: url('/fonts/Aharoni.tff');
+    
+}
+
+/*
+text spalva
+*/
+.text-color {
+    color: rgb(255, 255, 255);
+  }
+
+/*
+tekstas centre
+*/
+.centered-text {
+    text-align: center;
+    padding: 0% 20% 0% 20%;
+}
+
+/*
+no fking idea tested random shit untill it worked
+*/
+.nuotrauka {
+    display: block;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/*
+button centre
+*/
+.centered-button {
+    text-align: center;
+}
+
+.text-colorv2 {
+  color: rgb(0, 0, 0);
+}
