@@ -34,8 +34,10 @@ class Views extends Controller
 
     public function add_airport(){
         $countries = Countries::all();
-        return view('add_airport',['countries' => $countries]);
+        $airlines = Airlines::all();
+        return view('add_airport',['countries' => $countries, 'airlines'=> $airlines]);
     }
+    
 
     public function add_airlines(){
     return view('add_airlines');

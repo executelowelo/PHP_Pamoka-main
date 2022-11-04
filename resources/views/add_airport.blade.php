@@ -22,7 +22,7 @@
                 <option value="{{$country->id}}">{{$country->name}}</option>
             @endforeach
             </select>
-            <select class="form-select" name="countries_id"  aria-label="Select country">
+            <select class="form-select" name="airlines_id"  aria-label="Select country">
                 <option selected>Select country</option>
             @foreach($airlines as $airline)
                 <option value="{{$airline->id}}">{{$airline->name}}</option>

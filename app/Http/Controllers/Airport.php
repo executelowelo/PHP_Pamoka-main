@@ -19,8 +19,8 @@ class Airport extends Controller
     
             $airport = ModelsAirport::create([
                 'name'      => $request->name,
-                'airlines_id'   => $request->airline,
-                'countries_id'   => $request->country,
+                'airlines_id'   => $request->airlines_id,
+                'countries_id'   => $request->countries_id,
                 'location'  => $request->location 
             ]);
     
